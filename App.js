@@ -19,8 +19,8 @@ function App() {
         ) : (
           <form onSubmit={handleSubmit}> 
             <div className='Inputcontainer'>
+              <input className='input' type="text" placeholder="Full Name" />
               <input className='input' type="text" placeholder="Email" />
-              <input className='input' type="password" placeholder="Password" />
             </div>
             <div className='button-contain'>
               <button className='button' type='submit'>JOIN</button>
